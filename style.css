@@ -1,0 +1,96 @@
+/*font Quicksand*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+/*font Raleway*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+                        /*fonts*/
+*{
+    font-family: "Quicksand", serif;
+}
+
+
+.raleway{
+    font-family: "Raleway", serif;
+}
+                         /*nav*/
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin:1rem 8.813rem 3.75rem 8.813rem;
+
+
+}
+
+.text-a{
+    font-weight: 700;
+    font-size: 3.5rem;
+    color: #FEA301;
+}
+
+
+.text-b{
+    font-weight: 700;
+    font-size: 3.5rem;
+    color: #111111;
+}
+
+
+
+.text-c{
+    font-weight: 700;
+    font-size: 3.5rem;
+    color: #01ACFD;
+}
+
+.banner-p{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.button-enroll{
+    color:rgb(255, 255, 255);
+    background-color: #111111;
+    border-radius: 1rem;
+    padding: 15px 30px;
+}
+
+.bg{
+    position: relative;
+    text-align: center;
+}
+
+.Standard-curriculam{
+    font-weight: 700;
+    font-size: 2.875rem;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+
+.triple-card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    position: absolute;
+    align-items: center;
+    top: 50% ;
+    left:50% ;
+    transform: translate(-50%,-50%);
+}
+
+.card1{
+    background-image: linear-gradient(#d9f3ff,#ffffff);
+    border-radius: 1rem;
+    border-color: 2px ;
+
+    
+}
+
+.card2{
+    background-image: linear-gradient(#d9f3ff,#ffffff);
+    border-radius: 1rem;
+    
+    
+    
+}
