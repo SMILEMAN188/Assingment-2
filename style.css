@@ -10,8 +10,66 @@
 
 .raleway{
     font-family: "Raleway", serif;
+    font-size: 0,75rem;
+    font-weight: 500;
+    align-items: center;
 }
-                         /*nav*/
+                          /*nav*/
+
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 6rem;
+    gap: 1rem;
+}
+
+.School{
+    font-family: "Quicksand", serif;
+    font-weight: 700;
+    font-size:2rem ;
+}
+
+.Home{
+    font-family: "Quicksand", serif;
+    font-weight: 700;
+    font-size:1.25rem ;
+    color: #FEA301;
+}
+
+.About{
+    font-family: "Quicksand", serif;
+    font-weight: 700;
+    font-size:1.25rem ;
+    color: #01ACFD;
+}
+
+.Facilities{
+    font-family: "Quicksand", serif;
+    font-weight: 700;
+    font-size:1.25rem ;
+    color: #05D4DF;
+}
+
+.Admission{
+    font-family: "Quicksand", serif;
+    font-weight: 700;
+    font-size:1.25rem ;
+    color: #5D58EF;
+}
+
+.button{
+    color:rgb(255, 255, 255);
+    background-color: #FEA301;
+    border-radius: 1rem;
+    padding: 15px 35px;
+}
+
+
+
+
+
+                        /* banner*/
 
 .banner{
     display: flex;
@@ -21,7 +79,6 @@
 
 
 }
-
 .text-a{
     font-weight: 700;
     font-size: 3.5rem;
@@ -44,8 +101,8 @@
 }
 
 .banner-p{
-    font-weight: 400;
-    font-size: 20px;
+    font-weight: 500;
+    font-size: 1.15rem;
 }
 
 .button-enroll{
@@ -55,12 +112,18 @@
     padding: 15px 30px;
 }
 
+                     /*Standerd Curriculam*/
+
 .bg{
     position: relative;
     text-align: center;
+    height: 45rem;
+    width: 100%;
+    padding-bottom: 1rem;
+    width: 100%;
 }
 
-.Standard-curriculam{
+.heading1{
     font-weight: 700;
     font-size: 2.875rem;
     position: absolute;
@@ -73,24 +136,184 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     position: absolute;
-    align-items: center;
-    top: 50% ;
+    align-items:center;
+    top: 60% ;
     left:50% ;
     transform: translate(-50%,-50%);
+    gap: 4rem;
 }
 
-.card1{
-    background-image: linear-gradient(#d9f3ff,#ffffff);
-    border-radius: 1rem;
-    border-color: 2px ;
 
+.card1{
+    background-image: linear-gradient(#b8e8fc, #ffffff);
+    height: 441.78px;
+    border: 2px solid #f4fbff;
+    border-radius: 18px;
+    padding: 0rem 3rem;
     
 }
 
 .card2{
-    background-image: linear-gradient(#d9f3ff,#ffffff);
-    border-radius: 1rem;
-    
-    
-    
+    background-image: linear-gradient(#ffe9b9, #ffffff);
+    height: 441.78px;
+    border: 2px solid #f4fbff;
+    border-radius: 18px;
+    padding: 0rem 3rem;
 }
+
+.card3{
+    background-image: linear-gradient(#d1aeff, #ffffff);
+    height: 441.78px;
+    border: 2px solid #f4fbff;
+    border-radius: 18px;
+    padding: 0rem 3rem;
+}
+
+.sch{
+    font-weight: 700;
+    font-size: 1.19rem;
+}
+
+.Orange{
+    font-weight: 700;
+    font-size: 1rem;
+    color: #FEA301;
+}
+
+
+.light-blue{
+    font-weight: 700;
+    font-size: 1rem;
+    color: #05D4DF;
+}
+
+.violate{
+    font-weight: 700;
+    font-size: 1rem;
+    color: #5D58EF;
+}
+
+.special-btn1{
+    height: 2.70rem;
+
+}
+
+.special-btn2{
+    height: 3rem;
+
+}
+
+.special-btn{
+    align-items: center;
+    position: absolute;
+    top: 95% ;
+    left:50% ;
+    transform: translate(-50%,-50%);
+}
+
+                          /*Our stories*/
+
+
+ .bg2{
+    position: relative;
+    height: 45rem;
+    width: 100%;
+    padding-bottom: 1rem;
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255) , #facf85);
+    border-radius: 0.25rem;
+}
+
+.background-img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+
+
+                        /*card arrange section*/
+
+.complex-grid{
+    position: absolute;
+    display: grid;
+    grid-template-areas: 
+    /* "heading2 heading2 heading2" */
+    "big-card card-a card-b"
+    "big-card card-c card-d"
+    ;
+    gap: 2rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.heading2{
+    grid-area: heading2;
+    font-weight: 700;
+    font-size: 2.875rem;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.big-card{
+    grid-area: big-card;
+    background-color: #ffffff;
+    width: 33.767rem;
+    height: 39.408rem;
+    border-radius: 1rem;
+    padding: 0.75rem;
+}
+
+.card-a{
+    grid-area: card-a;
+    background-color: #ffffff;
+    width: 18.168rem;
+    height: 18.851rem;
+    border-radius: 1rem;
+    padding: 0.75rem;
+}
+
+.card-b{
+    grid-area: card-b;
+    background-color: #ffffff;
+    width: 18.168rem;
+    height: 18.851rem;
+    border-radius: 1rem;
+    padding: 0.75rem;
+}
+
+.card-c{
+    grid-area: card-c;
+    background-color: #ffffff;
+    width: 18.168rem;
+    height: 18.851rem;
+    border-radius: 1rem;
+    padding: 0.75rem;
+}
+
+.card-d{
+    grid-area: card-d;
+    background-color: #ffffff;
+    width: 18.168rem;
+    height: 18.851rem;
+    border-radius: 1rem;
+    padding: 0.75rem;
+}
+
+.sharp-img{
+    border-radius: 1rem 1rem 0rem 0rem;
+    position: relative;
+}
+
+.date{
+    background-color: #05D4DF;
+    border-radius: 1rem;
+    padding: 0.50rem;
+    position: absolute;
+    top: 10%;
+}
+
