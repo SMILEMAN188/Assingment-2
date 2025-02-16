@@ -10,19 +10,21 @@
 <body>
     <header>
         <nav class="nav">
-            <div class="nav">
-                <img src="assets/logo.png" alt="">
-                <p class="School" >School</p>
-            </div>
-            <div class="nav">
-                <p class="Home">Home</p>
-                <p class="About">About</p>
-                <p class="Facilities">Facilities</p>
-                <p class="Admission">Admission</p>
-            </div>
-            <div class="nav">
-                <button class="button">Contact</button>
-            </div>
+                <div class="nav">
+                    <img class="logo-png" src="assets/logo.png" alt="">
+                    <p class="School hide" >School</p>
+                </div>
+                <div class="nav ">
+                    
+                    <p class="Home hide">Home</p>
+                    <p class="About hide">About</p>
+                    <p class="Facilities hide">Facilities</p>
+                    <p class="Admission hide">Admission</p>
+                </div>
+                <div class="nav">
+                    <img class="hiden" src="assets/burger.png" alt="hamburger icon">
+                    <button class="button hide">Contact</button>
+                </div>
         </nav>
                            <!-- Banner -->
         
@@ -34,11 +36,13 @@
                     <span class="text-b">students from small <br> age</span>
                     <span class="text-c">towards vision</span>
                 </h1>
+                <marquee behavior="scroll" direction="left" scrollamount="6" onmouseover="this.stop();" onmouseout="this.start();">
                 <p class="banner-p">With the courage, Confidence, Creativity and Compassion to make their Unique Contribution in a Diverse and Dynamic World.</p>
+            </marquee>
                 <button class="button-enroll">Enroll Now</button>
             </div>
             <div>
-                <img src="assets/hero-kids.png" alt="Hero boy">
+                <img class="hero-boy" src="assets/hero-kids.png" alt="Hero boy">
             </div>
         </section>
     </header>
@@ -69,65 +73,91 @@
                 </div>
             </div>
             
-            <div class="special-btn">
+            <div class="special-btn hide">
                 <img class="special-btn1" src="assets/back.png" alt="back button">
                 <img class="special-btn2" src="assets/next.png" alt="next button">
             </div>
         </div>
-                      <!--Stories-->
+                      <!--Our Stories-->
 
-        <section class="bg2">
-            <img class="background-img" src="assets/bg.png" alt="">
+        <section>
+            <div class="bg2">
+                <img class="background-img" src="assets/bg.png" alt="">
             
 
-            <div class="complex-grid">
+            <div class="story">
                 <h1 class="heading2">Our Stories</h1>
 
-                <div class="big-card">
-                    <img class="sharp-img" src="assets/story-1.png" alt="">
-                    <p class="date">November 19, 2019</p>
-                    <h3>A fun toddler coloring training on
+                <div class="big-card hide">
+                    <img class="sharp-img1" src="assets/story-1.png" alt="">
+                    <p class="date-big">November 19, 2019</p>
+                    <h3 class="big-card-heading">A fun toddler coloring training on
                     classroom</h3>
-                    <p>Beautiful branding for changes by Never Now in Australia.
+                    <p class="raleway" >Beautiful branding for changes by Never Now in Australia.
                     changes is a platform for open discussion in an inclusive and
                     collaborative environment, providing the...</p>
                 </div>
-
-                <div class="card-a">
-                    <img class="sharp-img" src="assets/story-2.png" alt="">
-                    <p class="date">November 19, 2019</p>
+                <div class="card-story">
+                    <div class="card-a">
+                    <img class="sharp-img2" src="assets/story-2.png" alt="">
+                    <p class="date-1">November 19, 2019</p>
                     <h3>Find out if a school fits the
                         family’s needs</h3>
-                </div>
-
-                <div class="card-b">
-                    <img class="sharp-img" src="assets/story-3.png" alt="">
-                    <p class="date">November 19, 2019</p>
+                    </div>
+                    <div class="card-b">
+                    <img class="sharp-img3" src="assets/story-3.png" alt="">
+                    <p class="date-2">November 19, 2019</p>
                     <h3>Summer math & literacy
                         centres for kids</h3>
+                    </div>
                 </div>
-
-                <div class="card-c">
-                    <img class="sharp-img" src="assets/story-4.png" alt="">
-                    <p class="date">November 19, 2019</p>
+                <div class="card-story">
+                    <div class="card-c">
+                    <img class="sharp-img4" src="assets/story-4.png" alt="">
+                    <p class="date-3">November 19, 2019</p>
                     <h3>Classroom management
                     techniques for new tutors</h3>
                 </div>
 
                 <div class="card-d">
-                    <img class="sharp-img" src="assets/story-5.png" alt="">
-                    <p class="date">November 19, 2019</p>
+                    <img class="sharp-img5" src="assets/story-5.png" alt="">
+                    <p class="date-4">November 19, 2019</p>
                     <h3>Conversation rhymes
                         improve kids listening</h3>
                 </div>
+                <button class="button-view">View All</button>
             </div>
-        </div>
+            </div>
+            </div>
     </section>
 
 
     </main>
-    <footer>
 
+                             <!-- footer-->
+    <footer class="end">
+            <div class="end-1">
+                <div class="simple-flex">
+                <img src="assets/logo.png" alt="logo">
+                <h1 class="kd">Kids <br>
+                    Education</h1>
+                </div>
+                <p class="kd-p">Pizza ipsum dolor meat lovers buffalo. <br> Deep dolor roll melted bacon Bianca pan <br> bacon pineapple Aussie. Mayo rib sauce <br> Hawaiian meatball.</p>
+            </div>
+            <div class="end-2">
+                <p class="kd-effect">About School</p>
+                <p>Home</p>
+                <p>About</p>
+                <p>Facilities</p>
+                <p>Admission</p>
+            </div>
+            <div class="end-3">
+                <p class="kd-effect">Keep In Touch</p>
+                <img src="assets/fb.png" alt="fb">
+                <img src="assets/dribble.png" alt="drible">
+                <img src="assets/twitter.png" alt="twitter">
+                <img src="assets/google+.png" alt="google">
+            </div>
     </footer>
 
     
